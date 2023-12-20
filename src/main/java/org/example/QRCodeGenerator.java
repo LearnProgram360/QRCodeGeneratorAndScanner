@@ -2,7 +2,7 @@ package org.example;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
+//import java.io.IOException;
 import javax.imageio.ImageIO;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
@@ -10,7 +10,7 @@ import com.google.zxing.common.BitMatrix;
 
 public class QRCodeGenerator {
     public static void main(String[] args) {
-        String qrCodeText = "Hello, World!......................................."; // Text you want to encode in the QR code
+        String qrCodeText = "giritharan.t@paytm"; // Text you want to encode in the QR code
         int width = 300; // Width of the QR code
         int height = 300; // Height of the QR code
         String filePath = "D:\\IdeaProjects\\qrcode.png"; // File path where the QR code image will be saved
